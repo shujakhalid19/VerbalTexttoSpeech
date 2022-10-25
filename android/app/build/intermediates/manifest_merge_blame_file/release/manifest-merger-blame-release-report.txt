@@ -1,0 +1,199 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.verbal"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:2:3-64
+11-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:2:20-62
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:3:3-77
+12-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:3:20-75
+13    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+13-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:4:3-75
+13-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:4:20-73
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:5:3-63
+14-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:5:20-61
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:6:3-78
+15-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:6:20-76
+16
+17    <queries>
+17-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:7:3-13:13
+18        <intent>
+18-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:8:5-12:14
+19            <action android:name="android.intent.action.VIEW" />
+19-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:9:7-58
+19-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:9:15-56
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:10:7-67
+21-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:10:17-65
+22
+23            <data android:scheme="https" />
+23-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:11:7-37
+23-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:11:13-35
+24        </intent>
+25        <!-- Query open documents -->
+26        <intent>
+26-->[:expo-file-system] /home/shuja/Documents/native/speech/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:9-21:18
+27            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+27-->[:expo-file-system] /home/shuja/Documents/native/speech/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-79
+27-->[:expo-file-system] /home/shuja/Documents/native/speech/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:21-76
+28        </intent>
+29        <intent>
+29-->[:expo-speech] /home/shuja/Documents/native/speech/node_modules/expo-speech/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-16:18
+30
+31            <!-- Required for text-to-speech if targeting API 30 -->
+32            <action android:name="android.intent.action.TTS_SERVICE" />
+32-->[:expo-speech] /home/shuja/Documents/native/speech/node_modules/expo-speech/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-72
+32-->[:expo-speech] /home/shuja/Documents/native/speech/node_modules/expo-speech/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:21-69
+33        </intent>
+34    </queries>
+35
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+36-->[:expo-updates] /home/shuja/Documents/native/speech/node_modules/expo-updates/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-79
+36-->[:expo-updates] /home/shuja/Documents/native/speech/node_modules/expo-updates/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:22-76
+37    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+37-->[com.android.installreferrer:installreferrer:1.0] /home/shuja/.gradle/caches/transforms-3/f68a28f41677c25657e9843c20c78786/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+37-->[com.android.installreferrer:installreferrer:1.0] /home/shuja/.gradle/caches/transforms-3/f68a28f41677c25657e9843c20c78786/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+38
+39    <application
+39-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:14:3-33:17
+40        android:name="com.verbal.MainApplication"
+40-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:14:16-47
+41        android:allowBackup="true"
+41-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:14:162-188
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.3.0] /home/shuja/.gradle/caches/transforms-3/d15795c47be914585ca458b102a40944/transformed/core-1.3.0/AndroidManifest.xml:24:18-86
+43        android:icon="@mipmap/ic_launcher"
+43-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:14:81-115
+44        android:label="@string/app_name"
+44-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:14:48-80
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:14:116-161
+46        android:theme="@style/AppTheme"
+46-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:14:189-220
+47        android:usesCleartextTraffic="true" >
+47-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:14:221-256
+48        <meta-data
+48-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:15:5-82
+49            android:name="expo.modules.updates.ENABLED"
+49-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:15:16-59
+50            android:value="true" />
+50-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:15:60-80
+51        <meta-data
+51-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:16:5-93
+52            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+52-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:16:16-68
+53            android:value="43.0.0" />
+53-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:16:69-91
+54        <meta-data
+54-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:17:5-105
+55            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+55-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:17:16-80
+56            android:value="ALWAYS" />
+56-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:17:81-103
+57        <meta-data
+57-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:18:5-99
+58            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+58-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:18:16-79
+59            android:value="0" />
+59-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:18:80-97
+60        <meta-data
+60-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:19:5-158
+61            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+61-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:19:16-67
+62            android:value="https://exp.host/@shujakhalid/snack-d53ab7e0-fdc5-448d-89a9-7046a1527e67" />
+62-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:19:68-156
+63
+64        <activity
+64-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:20:5-31:16
+65            android:name="com.verbal.MainActivity"
+65-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:20:15-43
+66            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+66-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:20:77-154
+67            android:label="@string/app_name"
+67-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:20:44-76
+68            android:launchMode="singleTask"
+68-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:20:155-186
+69            android:screenOrientation="portrait"
+69-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:20:273-309
+70            android:theme="@style/Theme.App.SplashScreen"
+70-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:20:227-272
+71            android:windowSoftInputMode="adjustPan" >
+71-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:20:187-226
+72            <intent-filter>
+72-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:21:7-24:23
+73                <action android:name="android.intent.action.MAIN" />
+73-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:22:9-60
+73-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:22:17-58
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:23:9-68
+75-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:23:19-66
+76            </intent-filter>
+77            <intent-filter>
+77-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:25:7-30:23
+78                <action android:name="android.intent.action.VIEW" />
+78-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:9:7-58
+78-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:9:15-56
+79
+80                <category android:name="android.intent.category.DEFAULT" />
+80-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:27:9-67
+80-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:27:19-65
+81                <category android:name="android.intent.category.BROWSABLE" />
+81-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:10:7-67
+81-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:10:17-65
+82
+83                <data android:scheme="com.verbal" />
+83-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:11:7-37
+83-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:11:13-35
+84            </intent-filter>
+85        </activity>
+86        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+86-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:32:5-81
+86-->/home/shuja/Documents/native/speech/android/app/src/main/AndroidManifest.xml:32:15-79
+87
+88        <provider
+88-->[:expo-file-system] /home/shuja/Documents/native/speech/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-34:20
+89            android:name="expo.modules.filesystem.FileSystemFileProvider"
+89-->[:expo-file-system] /home/shuja/Documents/native/speech/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:13-74
+90            android:authorities="com.verbal.FileSystemFileProvider"
+90-->[:expo-file-system] /home/shuja/Documents/native/speech/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:13-74
+91            android:exported="false"
+91-->[:expo-file-system] /home/shuja/Documents/native/speech/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:28:13-37
+92            android:grantUriPermissions="true" >
+92-->[:expo-file-system] /home/shuja/Documents/native/speech/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-47
+93            <meta-data
+93-->[:expo-file-system] /home/shuja/Documents/native/speech/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:31:13-33:70
+94                android:name="android.support.FILE_PROVIDER_PATHS"
+94-->[:expo-file-system] /home/shuja/Documents/native/speech/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:32:17-67
+95                android:resource="@xml/file_system_provider_paths" />
+95-->[:expo-file-system] /home/shuja/Documents/native/speech/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:33:17-67
+96        </provider>
+97
+98        <meta-data
+98-->[:expo-modules-core] /home/shuja/Documents/native/speech/node_modules/expo-modules-core/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-14:89
+99            android:name="org.unimodules.core.AppLoader#react-native-headless"
+99-->[:expo-modules-core] /home/shuja/Documents/native/speech/node_modules/expo-modules-core/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-79
+100            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+100-->[:expo-modules-core] /home/shuja/Documents/native/speech/node_modules/expo-modules-core/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-86
+101
+102        <service
+102-->[androidx.room:room-runtime:2.1.0] /home/shuja/.gradle/caches/transforms-3/8cc4149e3bbd3098633168f95e5c4ac7/transformed/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+103            android:name="androidx.room.MultiInstanceInvalidationService"
+103-->[androidx.room:room-runtime:2.1.0] /home/shuja/.gradle/caches/transforms-3/8cc4149e3bbd3098633168f95e5c4ac7/transformed/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+104            android:exported="false" />
+104-->[androidx.room:room-runtime:2.1.0] /home/shuja/.gradle/caches/transforms-3/8cc4149e3bbd3098633168f95e5c4ac7/transformed/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+105    </application>
+106
+107</manifest>

@@ -1,0 +1,10 @@
+com/verbal/MainActivity.java
+ com.verbal.MainActivity
+ com.verbal.MainActivity$1
+com/verbal/MainApplication.java
+ com.verbal.MainApplication
+ com.verbal.MainApplication$1
+com/verbal/BuildConfig.java
+ com.verbal.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
